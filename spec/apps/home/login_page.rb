@@ -1,5 +1,5 @@
 class Home::LoginPage < Page
-    set_url '/arpchan/home/#login'
+    set_url '/bahmni/home/#login'
 
     def login(credentials)
         fill_in 'Username', :with => credentials[:username] || Settings.default_username
